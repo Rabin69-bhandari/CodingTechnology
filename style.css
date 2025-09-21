@@ -112,3 +112,18 @@ nav{
     font-weight: 600;
     color: #323437;
 }
+/* start of footer section*/
+
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+
+
+    font-family: "merriweatherbold";
+    font-weight: normal;
+
+    background-color: #f5f5f5;
+}
+/* End of footer section*/
+
