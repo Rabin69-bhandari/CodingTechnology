@@ -12,7 +12,7 @@ h1{
     margin-top: 50px;
 }
 
-
+/* Start Of Nav Bar*/
 nav{
     display: flex;
     justify-content: space-between;
@@ -51,7 +51,9 @@ nav{
     font-size: 12px;
     font-weight: 600;
 }
+/*End of Nav Bar */
 
+/*Start of Page1 */
 .page1 {
     display: flex;
     align-items: center;
@@ -112,6 +114,45 @@ nav{
     font-weight: 600;
     color: #323437;
 }
+/*end of page 1 */
+
+/*video start*/
+.Videos{
+    padding: 40px 10px;
+   width: 85%;
+   margin: 40px 0px;
+   border-top: 6px double rgba(0, 0, 0, 0.674);
+   border-bottom: 6px double rgba(0, 0, 0, 0.674);
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+
+.Videos iframe{
+  width: 300px;
+  height: 200px;
+ 
+}
+.video-contents-start{
+    display: flex;
+    justify-content: space-between;
+}
+.Videos h4{
+    color: red;
+    width: 2%;
+    border-bottom: 2px solid red;
+}
+.video-section{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.video-section p{
+    font-size: 18px;
+    color:#323437
+}
+
+/*video end */
 /* start of footer section*/
 
 
